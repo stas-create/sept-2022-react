@@ -1,0 +1,18 @@
+.mainCh{
+    display: flex;
+        justify-content: space-evenly;
+}
+.card{
+    width: 200px;
+    height: 350px;
+    border: black 1px solid;
+    text-align: center;
+
+}
+.imageC{
+    margin-top: 10px;
+    width: 150px;
+}
+.main{
+    text-align: center;
+}

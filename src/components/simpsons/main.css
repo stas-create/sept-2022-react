@@ -1,0 +1,14 @@
+.item{
+    text-align: center;
+    width: 200px;
+    height: 350px;
+    border: black 1px solid;
+}
+.imageS{
+    max-width: 150px;
+    max-height: 250px;
+}
+.simpsonFamily{
+    display: flex;
+    justify-content: space-evenly;
+}
