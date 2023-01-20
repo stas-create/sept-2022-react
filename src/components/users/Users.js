@@ -17,10 +17,10 @@ const Users = () => {
     return (
         <div>
             <h2 >Users:</h2>
-            <h4>User posts</h4>
-            {posts.map((post,index)=><UserPosts key={index} post={post}/>)}
             <hr/>
             {user.map((user, index) => <User key={index} user={user} setId={setId} />)}
+            <h4>User posts</h4>
+            {posts.map((post,index)=><UserPosts key={index} post={post}/>)}
         </div>
     );
 };

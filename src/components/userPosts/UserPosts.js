@@ -6,6 +6,8 @@ const UserPosts = ({post}) => {
                 User id - {userId} <br/> Id Post - {id} <br/> Title - {title} <br/> Body Post - {body}
 
             </div>
+            <hr/>
+
         </div>
     );
 };

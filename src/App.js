@@ -5,8 +5,8 @@ import {Users} from "./components/users/Users";
 const App = () => {
     return (
         <div>
-            <Posts/>
-            <SpaceX/>
+            {/*<Posts/>*/}
+            {/*<SpaceX/>*/}
             <Users/>
         </div>
     );
