@@ -7,7 +7,6 @@ import {carService} from "../../services";
 
 const CarForm = ({setCars,updateCar}) => {
 
-
     const {register, handleSubmit, reset, formState: {errors, isValid}, setValue} = useForm({
         mode: "all",
         resolver: joiResolver(carValidator)
@@ -21,13 +20,7 @@ const CarForm = ({setCars,updateCar}) => {
         }
     }, [updateCar,setValue]);
 
-    // const submit = async (car) => {
-    //     const {data} = await carService.create(car);
-    //     setCars(prev => [...prev, data]);
-    //     reset();
-    // };
-
-    const submit = async (car) => {
+       const submit = async (car) => {
 
         if (updateCar) {
             const {id}=updateCar
