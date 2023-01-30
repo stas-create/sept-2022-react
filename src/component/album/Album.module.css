@@ -1,0 +1,7 @@
+.Album{
+    border: 1px solid black;
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    background: aqua;
+}
