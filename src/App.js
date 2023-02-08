@@ -1,7 +1,9 @@
+import {Main} from "./components";
+
 const App = () => {
     return (
         <div>
-            App
+            <Main/>
         </div>
     );
 };
